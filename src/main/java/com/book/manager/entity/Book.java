@@ -11,11 +11,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * @Description 图书实体类
- * @Date 2020/7/14 15:58
- * @Author by 尘心
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

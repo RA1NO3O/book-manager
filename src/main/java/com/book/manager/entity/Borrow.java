@@ -10,11 +10,6 @@ import org.hibernate.annotations.DynamicUpdate;
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * @Description 借阅表
- * @Date 2020/7/14 16:01
- * @Author by 尘心
- */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

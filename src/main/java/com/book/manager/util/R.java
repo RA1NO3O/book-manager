@@ -5,11 +5,6 @@ import io.swagger.annotations.ApiModelProperty;
 
 import java.io.Serializable;
 
-/**
- * @Description 返回对象
- * @Date 2020/7/14 18:47
- * @Author by 尘心
- */
 public class R implements Serializable{
 
     @ApiModelProperty("响应码")

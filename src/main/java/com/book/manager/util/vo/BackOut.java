@@ -3,11 +3,6 @@ package com.book.manager.util.vo;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-/**
- * @Description 归还 vo对象
- * @Date 2020/7/24 11:24
- * @Author by 尘心
- */
 @Data
 public class BackOut extends BookOut{
 

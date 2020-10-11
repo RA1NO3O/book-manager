@@ -7,11 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/**
- * @Description 路由
- * @Date 2020/7/16 9:25
- * @Author by 尘心
- */
 @Api(tags = "路由")
 @Controller
 public class RouteController {

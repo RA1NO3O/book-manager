@@ -21,11 +21,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Description 用户管理
- * @Date 2020/7/14 16:35
- * @Author by 尘心
- */
+
 @Api(tags = "借阅管理")
 @RestController
 @RequestMapping("/borrow")

@@ -7,11 +7,6 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @Description
- * @Date 2020/7/14 19:57
- * @Author by 尘心
- */
 @Mapper
 @Component
 public interface UsersMapper {

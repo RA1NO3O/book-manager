@@ -11,11 +11,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-/**
- * @Description swagger 配置
- * @Date 2020/7/14 18:36
- * @Author by 尘心
- */
 @Configuration
 @EnableSwagger2
 public class SwaggerConfiguration {
@@ -31,7 +26,7 @@ public class SwaggerConfiguration {
     }
 
     private ApiInfo apiInfo() {
-        Contact contact = new Contact("尘心(Jason)","http://www.diqiyuzhou.tk","amazingjava@163.com");
+        Contact contact = new Contact("RA1N","http://github.com/RA1NO3O","raincaller@outlook.com");
         return new ApiInfoBuilder()
                 .title("【图书管理后台Swagger UI】")
                 .description("图书管理后台接口")

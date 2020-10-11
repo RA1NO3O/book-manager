@@ -10,11 +10,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * @Description 用户jpa 查询
- * @Date 2020/7/14 16:06
- * @Author by 尘心
- */
 @Repository
 public interface UsersRepository extends JpaRepository<Users,Integer>{
 

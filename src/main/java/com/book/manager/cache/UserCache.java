@@ -2,19 +2,6 @@ package com.book.manager.cache;
 
 import java.util.HashMap;
 
-/**
- * @Description 用户缓存, new: 现已使用SpringSecurity , 弃用此类
- * <p>
- *     摒弃Session, 自己在服务器端维护一个会话
- *     1. 记录用户信息
- *     2. 用户URL地址拦截
- *     3. 方便多个使用同一个账户
- *
- *     注意, 负载, 分布式情况下不适用, 可使用redis实现会话信息共享
- * </p>
- * @Date 2020/7/21 11:52
- * @Author by 尘心
- */
 public class UserCache{
 
     private static HashMap<String,Object> userMap = new HashMap<>();
